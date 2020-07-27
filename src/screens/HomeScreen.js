@@ -5,6 +5,8 @@ const HomeScreen = ({navigation})=> {
   console.log(props.navigation);
   return <View><Text style={styles.text}>Hi theretre!</Text>
   <Button onPress={() => navigation.navigate('Components')} title="Go to Components Demo" />
+  <Button onPress={() => navigation.navigate('ImageScreen')} title="Go to Image Demo" />
+
   <TouchableOpactiy onPress={() => navigation.navigate('List')}>
     <Text>Go to List Demo</Text>
   </TouchableOpactiy>
