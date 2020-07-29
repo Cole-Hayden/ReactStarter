@@ -10,6 +10,7 @@ const HomeScreen = ({navigation})=> {
   <TouchableOpactiy onPress={() => navigation.navigate('List')}>
     <Text>Go to List Demo</Text>
   </TouchableOpactiy>
+  <Button title="Go to Counter Demo" onPress={() => navigation.navigate('Counter')} />
   </View>
   
 };
