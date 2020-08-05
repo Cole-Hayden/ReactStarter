@@ -37,7 +37,7 @@ const SquareScreen = () => {
             onIncrease={() => dispatch({ colorToChange: 'blue', amount: COLOR_INCREMENT })}
             onDecrease={() => dispatch({colorToCHange: 'blue', amount: COLOR_INCREMENT })}
         />
-        <ColorCounter onIncrease={() => } onDecrease={() => } color="Green" />
+        
         <View style={{ height: 150, width: 150, backgroundColor: `rgb(${red}, ${green}, ${blue})` }}/>
     </View>);
 };
